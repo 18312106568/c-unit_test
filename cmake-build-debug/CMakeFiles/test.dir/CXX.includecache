@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/cproject/c-unit_test/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+Windows.h
+-
+Imagehlp.h
+-
+tchar.h
+-
+
