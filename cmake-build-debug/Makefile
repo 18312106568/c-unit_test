@@ -122,6 +122,34 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+#=============================================================================
+# Target rules for targets named xunlei
+
+# Build rule for target.
+xunlei: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 xunlei
+.PHONY : xunlei
+
+# fast build rule for target.
+xunlei/fast:
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/build
+.PHONY : xunlei/fast
+
+# target to build an object file
+TestXunlei.obj:
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/TestXunlei.obj
+.PHONY : TestXunlei.obj
+
+# target to preprocess a source file
+TestXunlei.i:
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/TestXunlei.i
+.PHONY : TestXunlei.i
+
+# target to generate assembly for a file
+TestXunlei.s:
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/TestXunlei.s
+.PHONY : TestXunlei.s
+
 # target to build an object file
 main.obj:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/main.obj
@@ -145,7 +173,11 @@ help:
 	@echo ... depend
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... xunlei
 	@echo ... edit_cache
+	@echo ... TestXunlei.obj
+	@echo ... TestXunlei.i
+	@echo ... TestXunlei.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

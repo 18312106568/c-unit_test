@@ -101,6 +101,43 @@ clean: CMakeFiles/test.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/xunlei.dir
+
+# All Build rule for target.
+CMakeFiles/xunlei.dir/all:
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/depend
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cproject\c-unit_test\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target xunlei"
+.PHONY : CMakeFiles/xunlei.dir/all
+
+# Include target in all.
+all: CMakeFiles/xunlei.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/xunlei.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cproject\c-unit_test\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/xunlei.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cproject\c-unit_test\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/xunlei.dir/rule
+
+# Convenience name for target.
+xunlei: CMakeFiles/xunlei.dir/rule
+
+.PHONY : xunlei
+
+# clean rule for target.
+CMakeFiles/xunlei.dir/clean:
+	$(MAKE) -f CMakeFiles\xunlei.dir\build.make CMakeFiles/xunlei.dir/clean
+.PHONY : CMakeFiles/xunlei.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/xunlei.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -5,5 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 
 add_executable(test main.cpp)
+add_executable(xunlei TestXunlei.cpp)
 
 link_libraries("E:\\cproject\\test\\sayHello.dll")

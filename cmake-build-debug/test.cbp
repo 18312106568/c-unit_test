@@ -69,6 +69,48 @@
 					<DistClean command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="xunlei">
+				<Option output="E:/cproject/c-unit_test/cmake-build-debug/xunlei.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 xunlei"/>
+					<CompileFile command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xunlei/fast">
+				<Option output="E:/cproject/c-unit_test/cmake-build-debug/xunlei.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Program Files/MinGW-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 xunlei/fast"/>
+					<CompileFile command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/PROGRA~1/MinGW-64/mingw32/bin/mingw32-make.exe -f &quot;E:/cproject/c-unit_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/cproject/c-unit_test/cmake-build-debug"/>
 				<Option type="4"/>
@@ -80,6 +122,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/cproject/c-unit_test/TestXunlei.cpp">
+			<Option target="xunlei"/>
+		</Unit>
 		<Unit filename="E:/cproject/c-unit_test/main.cpp">
 			<Option target="test"/>
 		</Unit>

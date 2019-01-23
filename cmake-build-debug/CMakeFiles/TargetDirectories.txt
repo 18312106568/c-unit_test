@@ -1,3 +1,4 @@
 E:/cproject/c-unit_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 E:/cproject/c-unit_test/cmake-build-debug/CMakeFiles/test.dir
+E:/cproject/c-unit_test/cmake-build-debug/CMakeFiles/xunlei.dir
 E:/cproject/c-unit_test/cmake-build-debug/CMakeFiles/edit_cache.dir
